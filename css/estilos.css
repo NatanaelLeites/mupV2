@@ -22,7 +22,7 @@ li {
 }
 
 .header {
-  background: #ececec;
+  background: #dbdbdb;
   color: #000000;
   padding: 0.5rem;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4666666667);
@@ -37,10 +37,11 @@ li {
 .header .nav .nav-titulo {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .header .nav .nav-titulo h2 {
   padding: 0 1rem;
-  display: none;
+  margin-left: 70%;
 }
 .header .nav .nav-titulo .logo-img {
   height: 60px;
@@ -113,6 +114,10 @@ li {
   /* prueba */
   margin: 0.7rem;
   background: #0a4300;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.462745098), rgba(0, 0, 0, 0.6235294118)), url("../assets/img/uruguay.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 20px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4666666667);
   /* fin prueba */
@@ -124,7 +129,7 @@ li {
 }
 .hero .hero-presentacion .hero-titulo {
   color: #1dbf00;
-  color: #dfdfdf;
+  color: #ffffff;
   font-size: 3rem;
 }
 .hero .hero-presentacion .hero-text {
@@ -135,23 +140,27 @@ li {
 .hero .hero-presentacion .hero-btn {
   background: #1dbf00;
   border: none;
-  color: #fff;
+  color: #1d1d1d;
   padding: 0.5rem;
   border-radius: 20px;
   transition: all 0.3s;
-  border: solid 2px rgba(255, 255, 255, 0);
+  border: solid 2px rgba(0, 0, 0, 0);
   font-size: 1.3rem;
 }
 .hero .hero-presentacion .hero-btn:hover {
-  color: #000;
+  color: #ffffff;
   background: #1dbf00;
-  border: solid 2px #fff;
+  border: solid 2px #ffffff;
 }
 .hero .hero-img-container .hero-img {
   width: 200px;
   object-fit: cover;
   border-radius: 20px;
   display: none;
+}
+
+.card {
+  padding: 0.7rem;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -12,9 +12,10 @@
         .nav-titulo{
             display: flex;
             align-items: center;
+            justify-content: space-between;
             h2{
                 padding: 0 1rem;
-                display: none;
+                margin-left: 70%;
             }
             .logo-img{
                 height: 60px;

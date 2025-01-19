@@ -6,6 +6,10 @@
     /* prueba */
     margin: 0.7rem;
     background: $verde-oscuro;
+    background: linear-gradient(to top, #00000076, #0000009f), url("../assets/img/uruguay.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 20px;
     box-shadow: 0px 0px 15px #00000077;
     /* fin prueba */
@@ -16,7 +20,7 @@
         
         .hero-titulo{
             color: $verde-claro;
-            color: #dfdfdf;
+            color: #ffffff;
             font-size: 3rem;
         }
         .hero-text{
@@ -27,17 +31,17 @@
         .hero-btn{
             background: $verde-claro;
             border: none;
-            color: #fff;
+            color: #1d1d1d;
             padding: .5rem;
             border-radius: 20px;
             transition: all .3s;
-            border: solid 2px #ffffff00;
+            border: solid 2px #00000000;
             font-size: 1.3rem;
         }
         .hero-btn:hover{
-            color: #000;
+            color: #ffffff;
             background: $verde-claro;
-            border: solid 2px #fff;
+            border: solid 2px #ffffff;
         }
     }
     .hero-img-container{
