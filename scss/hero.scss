@@ -1,0 +1,49 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.7rem;
+    /* prueba */
+    margin: 0.7rem;
+    background: $verde-oscuro;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #00000077;
+    /* fin prueba */
+    .hero-presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .hero-titulo{
+            color: $verde-claro;
+            color: #dfdfdf;
+        }
+        .hero-text{
+            padding: 0.5rem 0;
+            color: #dfdfdf;
+        }
+        .hero-btn{
+            background: $verde-claro;
+            border: none;
+            color: #fff;
+            padding: .5rem;
+            border-radius: 20px;
+            transition: all .3s;
+            border: solid 2px #ffffff00;
+        }
+        .hero-btn:hover{
+            color: #000;
+            background: $verde-claro;
+            border: solid 2px #fff;
+        }
+    }
+    .hero-img-container{
+        .hero-img{
+            width: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+            display: none;
+        }
+    }
+    
+}
