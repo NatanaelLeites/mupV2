@@ -17,10 +17,12 @@
         .hero-titulo{
             color: $verde-claro;
             color: #dfdfdf;
+            font-size: 3rem;
         }
         .hero-text{
             padding: 0.5rem 0;
             color: #dfdfdf;
+            font-size: 1.3rem;
         }
         .hero-btn{
             background: $verde-claro;
@@ -30,6 +32,7 @@
             border-radius: 20px;
             transition: all .3s;
             border: solid 2px #ffffff00;
+            font-size: 1.3rem;
         }
         .hero-btn:hover{
             color: #000;

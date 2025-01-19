@@ -66,6 +66,7 @@ li {
   border-radius: 20px;
   text-align: center;
   font-weight: 600;
+  font-size: 1.2rem;
 }
 .header .nav .menu .menu-item a {
   color: #000000;
@@ -124,10 +125,12 @@ li {
 .hero .hero-presentacion .hero-titulo {
   color: #1dbf00;
   color: #dfdfdf;
+  font-size: 3rem;
 }
 .hero .hero-presentacion .hero-text {
   padding: 0.5rem 0;
   color: #dfdfdf;
+  font-size: 1.3rem;
 }
 .hero .hero-presentacion .hero-btn {
   background: #1dbf00;
@@ -137,6 +140,7 @@ li {
   border-radius: 20px;
   transition: all 0.3s;
   border: solid 2px rgba(255, 255, 255, 0);
+  font-size: 1.3rem;
 }
 .hero .hero-presentacion .hero-btn:hover {
   color: #000;
