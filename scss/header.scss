@@ -1,13 +1,15 @@
 .header{
     background: $gris-claro;
     color: #000000;
-    padding: .5rem;
+    padding: .5rem 2rem;
     box-shadow: 0px 0px 15px #00000077;
     border-radius: 0px 0 20px 20px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
     .nav{
         display: flex;
         align-items: center;
-        justify-content: space-between;
         position: relative;
         .nav-titulo{
             display: flex;
@@ -15,7 +17,6 @@
             justify-content: space-between;
             h2{
                 padding: 0 1rem;
-                margin-left: 70%;
             }
             .logo-img{
                 height: 60px;
@@ -74,6 +75,8 @@
             font-size: 30px;
             cursor: pointer;
             transition: all .5s;
+            position: absolute;
+            right: 0px;
         }
         .activo{
             color: $verde-claro;
