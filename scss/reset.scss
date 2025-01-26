@@ -11,6 +11,7 @@ html{
 body{
     background: $gris-oscuro;
     width: 100vw;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
